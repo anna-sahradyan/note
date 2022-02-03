@@ -1,6 +1,8 @@
+import {PASSWORD} from '../data/index';
 const Sequelize = require("sequelize");
 
-const sequelize =  new Sequelize("reactjs", "root", "root", {
+
+const sequelize =  new Sequelize("PASSWORD", "root", "root", {
     dialect: "mysql",
     host: "localhost"
 });
